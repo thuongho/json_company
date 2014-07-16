@@ -1,0 +1,144 @@
+/* my custom stylesheet */
+
+body {
+  /*padding-top: 50px;*/
+}
+
+/* top image */
+.server {
+  background: url('../img/server-room-1.jpg');
+}
+
+/* opacity */
+.see-thru {
+  opacity: 0.9;
+}
+
+/* make row full window */
+.row {
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 100%;
+  
+}
+
+.b-cush {
+  margin-bottom: 2em;
+}
+
+header {
+  /*background-color: black;*/
+  height: auto;
+  max-height: 100%;
+  width: auto;
+  max-width: 100%;
+  margin: 0px auto;
+}
+
+/* shadow for image */
+header img {
+  max-height: 100%;
+  height: 100%;
+  box-shadow: 1px 1px 1px black;
+}
+
+.md-gray {
+  /*background-color: #999;*/
+}
+
+/* $grayMediumLight: #eaeaea; */
+footer {
+  /*padding: 2em 0;*/
+  /*margin: 3em 0;*/
+  /*border: 1px solid #ddd;*/
+  color: #999;
+  background-color: #333333;
+}
+
+footer a {
+  font-style: italic;
+  color: #999;
+}
+
+.branding {
+  position: relative;
+  top: -10em;
+  color: white;
+  text-shadow: 1px 1px 1px black, 
+               1px 1px 1px gray;
+}
+
+.pix {
+  /*background: black;*/
+}
+
+.company {
+  margin-top: -2em;
+}
+
+.gray_background {
+  background: #F6F6F6;
+}
+
+ul > li > a {
+  color: white;
+}
+
+.center-me {
+  text-align: center;
+}
+
+/* bottom shadow */
+.bt-shdw {
+  /*-webkit-box-shadow: 0 4px 4px -2px #F6F6F6;
+   -moz-box-shadow: 0 4px 4px -2px #F6F6F6;
+        box-shadow: 0 4px 4px -2px #F6F6F6;*/
+}
+
+#copyright {
+  margin-left: 1em;
+}
+
+.glyphicon {
+  color: #3F2B22;
+}
+
+/*.glyphicon-pushpin,
+.glyphicon-heart {
+  color: #3F2B22;
+}*/
+
+.pull-right.img-responsive {
+  margin: 0 0 1em 1em;
+}
+
+/*.btn-info {
+  background-color: #cdae51;
+  border-color: #3F2B22;
+  color: white; 
+}*/
+
+.btn-info:hover,
+.btn-info:focus,
+.btn-info:active,
+.btn-info.active,
+.open .dropdown-toggle.btn-info {
+  /*color: #ffffff;*/
+  /*background-color: #3F2B22;*/
+  /*border-color: #333;*/
+}
+
+.breadcrumb > li + li:before {
+  content: none;
+}
+
+.tab-pane {
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding: 0.8em;
+}
+
+.active .glyphicon {
+  color: #cdae51;
+}
